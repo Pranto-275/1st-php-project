@@ -1,0 +1,424 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*navbar */
+
+.navbarBG{
+    
+    padding: 30px ;
+    transition: .5s ease-out;
+    filter: drop-shadow(8px 8px 10px gray);
+}
+@media(max-width:575px){
+    .navbarBG{
+        background-color: white;
+    }
+}
+
+
+.navbarBG.scrolled {
+    background: #f6b93b !important;
+    color: white !important;
+}
+
+
+
+nav .navbar-brand{
+    color: black;
+}
+
+
+
+nav .navbar-nav .nav-item .nav-link{
+    color: black !important;
+    padding-left: 22px;
+    font-weight: 500;
+}
+nav .navbar-nav .nav-item .nav-link:hover{
+    color: black !important;
+    
+  
+}
+
+
+nav .dropdown .dropdown-menu{
+    margin-top: 35px ;
+    border-radius: 0;
+    
+}
+
+nav .dropdown .dropdown-menu .dropdown-item:hover{
+    color: #f6b93b !important;
+}
+
+
+@media(max-width:767px){
+    nav .dropdown .dropdown-menu{
+        margin-top: 0 ;
+        
+    }
+}
+
+/*End navbar  */
+
+/*Homesection  */
+
+#homesection{
+    background: url(../Image/mainbg1.jpg) no-repeat center top;
+    background-size: cover;
+    min-height: 800px;
+}
+
+#homesection .homeinner{
+    padding-top: 200px;
+}
+
+#homesection .adBG{
+    position: relative;
+    background-color: white;
+    width: 300px;
+    border-radius: 70%;
+    height:300px;
+   
+}
+#homesection .adELEMENT{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  
+}
+#homesection .btncollection{
+    position: absolute;
+    background:#ffa801;
+    width: 150px;
+    height: 60px;
+    margin-left: 6px;
+    border-radius: 120px;
+    color: white;
+}
+
+#homesection .btncollection:hover{
+  
+    background:black;
+
+}
+
+
+#homesection .OFFCANVAS{
+    margin-top: 100px;
+    background:#ffa801;
+    cursor: pointer;
+}
+
+
+@media(max-width:991px){
+    #homesection .btncollection{
+  
+        margin-top: 15px;
+    
+    }
+
+}
+@media(max-width:959px){
+    #homesection .btncollection{
+  
+        margin-top: 50px;
+    
+    }
+
+}
+
+
+@media(max-width:767px){
+    #homesection .btncollection{
+  
+        margin-top: 20px;
+    
+    }
+
+}
+
+
+@media(max-width:574px){
+    #homesection .adBG{
+        background-color: white;
+        width: 200px;
+        border-radius: 70%;
+        height:200px;
+    }
+
+    #homesection .adELEMENT h1{
+        font-size: 30px !important;
+    }
+
+    #homesection .btncollection{
+  
+        margin-left: -21px;
+        margin-top: -10px;
+
+    
+    }
+
+}
+
+
+/*End Homesection  */
+/*--Collection--*/
+
+#collection .collectionIMAGE{
+    position: relative;
+}
+
+#collection .overlay{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+    
+}
+
+#collection .overlay .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center; 
+}
+
+@media(max-width:767px){
+    #collection h1{
+        font-size: 30px;
+    }
+
+}
+/*--Collection End--*/
+/*--Sample--*/
+#sample .sampleIMAGE{
+    position: relative;
+}
+#sample .sample-overlay{
+    position: absolute;
+    background-color: blue;
+    top:15px;
+    left: 15px;
+    width:40px;
+    height: 25px;
+    border-radius: 10px;
+}
+#sample .sample-overlay .sample-text{
+    position: absolute;
+    font-size: small;
+    font-weight: bold;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+
+
+
+@media (max-width:767px){
+    #sample h1{
+        font-size: 30px;
+    }
+}
+/*--End Sample--*/
+/*--Offerbanner--*/
+
+#offerbanner{
+    background: url(../Image/cover-img-1.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 300px;
+}
+#offerbanner .bannerInner{
+    background: rgba(275, 275, 275, .5);
+    min-height: 300px;
+}
+
+#offerbanner .btnOFFER{
+    background-color:#ffa801; 
+    padding:10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+#offerbanner .btnOFFER:hover{
+    background-color:black; 
+  
+    color: white;
+   
+}
+
+#offerbanner .btnOFFEROUTLINE{
+    border-color:#ffa801; 
+    padding:10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 40px;
+    color: #ffa801;
+    font-weight: bold;
+    font-size: 18px;
+}
+#offerbanner .btnOFFEROUTLINE:hover{
+    background:#ffa801; 
+  
+    color: white;
+   
+}
+
+#offerbanner .OFFCANVAS{
+    margin-top: 100px;
+    background:#ffa801; 
+    cursor: pointer;
+}
+
+
+#offerbanner .OFFCANVAS2{
+    margin-top: 100px;
+    background:#EE5A24;
+    cursor: pointer;
+}
+
+
+
+
+/*--End Offerbanner--*/
+
+
+/*--OurProduct--*/
+
+#ourProducts .productIMAGE{
+    position: relative;
+}
+#ourProducts .product-overlay{
+    position: absolute;
+    background-color: green;
+    top:15px;
+    left: 15px;
+    width:50px;
+    height: 25px;
+    border-radius: 10px;
+}
+#ourProducts .product-overlay .product-text{
+    position: absolute;
+    font-size: small;
+    font-weight: 500;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+@media(max-width:500px){
+    #ourProducts h1{
+        font-size: 20px!important;
+    }
+    #ourProducts p{
+        font-size: 15px!important;
+    }
+}
+ @media(max-width:767px){
+    #ourProducts h1{
+        font-size: 30px;
+    }
+    
+}
+/*--End OurProduct--*/
+
+/*--BLOG--*/
+
+#blog .card{
+    filter: drop-shadow(8px 8px 10px gray);
+}
+
+#blog .blogIMAGE{
+    position: relative;
+}
+
+#blog .blogIMAGE .blog-overlay{
+    position: absolute;
+    width: 70px;
+    height: 90px;
+    background-color:#ffa801;
+    bottom: -40px;
+    left: 0;
+
+}
+#blog .blogIMAGE .blog-overlay .blog-text{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+@media (min-width:992px){
+    #blog .blogIMAGE .blog-overlay{
+        width: 50px;
+        height: 65px;
+        bottom: -25px;
+    }
+    #blog .blogIMAGE .blog-overlay .blog-text{
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
+@media (max-width:400px){
+    #blog .blogIMAGE .blog-overlay{
+        width: 50px;
+        height: 65px;
+        bottom: -25px;
+    }
+    #blog .blogIMAGE .blog-overlay .blog-text{
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+@media(max-width:500px){
+    #blog h1{
+        font-size: 20px!important;
+    }
+    #blog p{
+        font-size: 15px!important;
+    }
+}
+ @media(max-width:767px){
+    #blog h1{
+        font-size: 30px;
+    }
+    
+}
+@media(max-width:315px){
+    #blog h1{
+        font-size: 15px!important;
+    }
+    
+}
+
+
+/*--End BLOG--*/
+
+/*--subscribe--*/
+
+/*--End subscribe--*/

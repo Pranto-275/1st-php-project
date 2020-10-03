@@ -1,0 +1,10 @@
+#showtable {
+    background: url('Image/mainbg1.jpg') no-repeat center top;
+    background-size: cover;
+    min-height: 700px;
+}
+
+#showtable h1{
+    font-size: 30px;
+    font-weight: bold;
+}

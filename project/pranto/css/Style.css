@@ -1,0 +1,24 @@
+body{
+    color: white !important;
+}
+
+.signupnav{
+    background-color: #EE5A24 !important;
+}
+
+
+#loginform{
+    background:url('../Image/mainbg1.jpg') no-repeat center top;
+    background-size: cover;
+    min-height: 700px;
+}
+#loginform .overlay{
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 700px;
+}
+#loginform .card{
+    background-color: #EE5A24;
+    filter: drop-shadow(8px 8px 10px black);
+    border-radius: 10px;
+   
+}
